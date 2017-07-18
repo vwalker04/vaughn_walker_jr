@@ -1,0 +1,102 @@
+body {
+  font: 17px/1.5 'Chivo', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #E8E1CE
+}
+
+/* Gloval */
+.container {
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header {
+  background: #141412;
+  color: #F0FFEA;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #8D968A 3px solid;
+}
+
+header h1{
+  font-family: 'Satisfy', cursive;
+}
+
+header a {
+  color: #F0FFEA;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 10px; /*watch for mobile problems*/
+}
+
+header li {
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand {
+  float:left;
+}
+
+header #brand h1 {
+  margin: 0;
+}
+
+header nav {
+  float:right;
+  margin-top: 10px;
+}
+
+header .accent, header .current {
+  color: #8D968A;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #525252;
+}
+
+/* About me */
+#about_me {
+  min-height: 400px;
+  padding-top: 80px;
+  background:url('../img/coffee.jpg') no-repeat 0 -500px;
+  text-align: center;
+  color: #FFF;
+}
+
+#about_me #face {
+  float: left;
+  display: inline;
+  margin-right: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.p1{
+  background-color: rgba(20,20,18,.5);
+  width: 75%;
+  padding: 10px;
+  float:left;
+  display: inline;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #141412;
+  color: #F0FFEA;
+  padding-top: 20px;
+  min-height: 70px;
+  border-top: #8D968A 3px solid;
+  text-align: center;
+}
