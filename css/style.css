@@ -40,7 +40,7 @@ header a {
 header li {
   float:left;
   display: inline;
-  padding: 0 20px 0 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 header #brand {
@@ -69,13 +69,14 @@ header a:hover {
 #about_me {
   min-height: 400px;
   padding-top: 80px;
-  background:url('../img/coffee.jpg') no-repeat 0 -500px;
+  background:url('../img/coffee.jpg') no-repeat -500px;
+  background-position: center;
   text-align: center;
   color: #FFF;
+  margin-bottom: 20px;
 }
 
 #about_me #face {
-  float: left;
   display: inline;
   margin-right: 10px;
   margin-top: 15px;
@@ -86,8 +87,57 @@ header a:hover {
   background-color: rgba(20,20,18,.5);
   width: 75%;
   padding: 10px;
-  float:left;
+  float: right;
   display: inline;
+  border-radius: 5px;
+}
+
+/* projects */
+
+#projects {
+  max-width: 760px;
+  text-align: center;
+  background-color: rgba(204,197,181,1);
+  margin: auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+#projects h1 {
+  margin-top: 10px;
+  padding: 0;
+  color: #141412;
+}
+
+#projects li {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+  text-align: center;
+}
+
+#projects ul {
+  display: inline;
+  text-align: center;
+}
+
+#projects p {
+  font-size: 14px;
+}
+
+#contact h1{
+  color: #141412;
+}
+
+#contact li {
+  padding: 10px;
+  margin: 0;
+  float: left;
+  display: inline;
+}
+
+#contact img {
   border-radius: 5px;
 }
 
