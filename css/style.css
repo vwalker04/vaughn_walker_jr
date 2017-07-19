@@ -5,7 +5,7 @@ body {
   background-color: #E8E1CE
 }
 
-/* Gloval */
+/* Global */
 .container {
   width:80%;
   margin: auto;
@@ -85,6 +85,7 @@ header a:hover {
 
 .p1{
   background-color: rgba(20,20,18,.5);
+  transition: 1s;
   width: 75%;
   padding: 10px;
   float: right;
@@ -92,15 +93,26 @@ header a:hover {
   border-radius: 5px;
 }
 
+.p1:hover {
+  background-color: rgba(20,20,18,1);
+  transition: 1s;
+}
+
 /* projects */
 
 #projects {
   max-width: 760px;
   text-align: center;
-  background-color: rgba(204,197,181,1);
+  background-color: rgba(115,114,113,1);
+  transition: .75s;
   margin: auto;
   padding: 0;
   border-radius: 10px;
+}
+
+#projects:hover {
+  background-color: rgba(115,114,113,.5);
+  transition: .75s;
 }
 
 #projects h1 {
@@ -126,6 +138,7 @@ header a:hover {
   font-size: 14px;
 }
 
+/* Contact Me */
 #contact h1{
   color: #141412;
 }
@@ -140,6 +153,7 @@ header a:hover {
 #contact img {
   border-radius: 5px;
 }
+
 
 /* Footer */
 footer {
