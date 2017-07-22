@@ -81,6 +81,7 @@ header a:hover {
   margin-right: 10px;
   margin-top: 15px;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px #292929
 }
 
 .p1{
@@ -136,6 +137,12 @@ header a:hover {
 
 #projects p {
   font-size: 14px;
+}
+
+#projects img{
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #292929;
+}
 }
 
 /* Contact Me */
