@@ -86,7 +86,7 @@ header a:hover {
 }
 
 #face {
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 .p1{
