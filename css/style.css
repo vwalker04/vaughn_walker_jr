@@ -27,21 +27,23 @@ header {
 }
 
 header h1{
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 header a {
   color: #F0FFEA;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 18px;
   padding: 10px; /*watch for mobile problems*/
+  margin: 0;
 }
 
 header li {
-  float:left;
-  display: inline;
-  padding: 10px 20px 10px 20px;
+  /*float:left;*/
+  display: inline-block;
+  padding: 10px 0;
+  /*margin-right: 20px;*/
 }
 
 header #brand {
@@ -117,7 +119,7 @@ header a:hover {
 }
 
 #projects:hover {
-  background-color: rgba(115,114,113,.5);
+  background-color: rgba(141,150,138,.5);
   transition: .75s;
 }
 
@@ -175,4 +177,11 @@ footer {
   min-height: 70px;
   border-top: #8D968A 3px solid;
   text-align: center;
+}
+
+/* ------ Media Queries ------ */
+@media screen and (max-width: 768px) {
+  header a {
+    font-size: 12px;
+  }
 }
