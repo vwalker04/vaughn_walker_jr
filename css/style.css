@@ -106,6 +106,10 @@ header a:hover {
   transition: 1s;
 }
 
+.highlight {
+  color: #98A3A3;
+}
+
 /* projects */
 
 #projects {
