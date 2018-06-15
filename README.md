@@ -1,2 +1,2 @@
 // Welcome to my website!
-https://vaughnwalker.me/
+http://vaughnwalker.me/
