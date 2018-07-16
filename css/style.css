@@ -77,6 +77,7 @@ header a:hover {
   text-align: center;
   color: #FFF;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 #about_me #face {
@@ -89,6 +90,8 @@ header a:hover {
 
 #face {
   cursor: pointer;
+  width: 150px; 
+  height: 150px; 
 }
 
 .p1{
@@ -99,6 +102,7 @@ header a:hover {
   float: right;
   display: inline;
   border-radius: 5px;
+  text-align: justify;
 }
 
 .p1:hover {
